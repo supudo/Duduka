@@ -40,6 +40,11 @@
 	[self.navigationController popViewControllerAnimated:TRUE];
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return (interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown ? NO : YES);
 }

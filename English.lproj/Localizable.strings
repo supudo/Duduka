@@ -17,14 +17,14 @@
 
 "CategoriesAddNew.NavTitle" = "Add new";
 "CategoriesAddNew.Save" = "Save";
-"CategoriesAddNew.ParentCategory" = "Under category:";
+"CategoriesAddNew.ParentCategory" = "Parent:";
 "CategoriesAddNew.Root" = " < Root Level > ";
 
 "Feeds.NavTitle" = "Feeds";
 "Feeds.AddNew" = "Add";
 
 "FeedsAddNew.NavTitle" = "Add new";
-"FeedsAddNew.ParentCategory" = "Under category:";
+"FeedsAddNew.ParentCategory" = "Parent:";
 "FeedsAddNew.Save" = "Save";
 "FeedsAddNew.Finished" = "Parsing finished.\n Feed saved.";
 
