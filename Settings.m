@@ -85,9 +85,9 @@ static NSString *kCellIdentifier = @"MyIdentifier";
 	if (actionSheet.tag == 90 && buttonIndex == 0)
 		[NSThread detachNewThreadSelector:@selector(startThreadWipeOutData) toTarget:self withObject:nil];
 	else if (actionSheet.tag == 91) {
+		[[[appDelegate tabBarController].viewControllers objectAtIndex:0] popToRootViewControllerAnimated:NO];
 		[appDelegate tabBarController].selectedIndex = 0;
 		[[appDelegate tabBarController] viewWillAppear:YES];
-		[[[appDelegate tabBarController].viewControllers objectAtIndex:0] popToRootViewControllerAnimated:NO];
 	}
 }
 

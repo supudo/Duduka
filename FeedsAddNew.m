@@ -89,7 +89,7 @@
 
 - (void) showLoadingSheet {
 	self.loadingActionSheet.actionSheetStyle = UIActionSheetStyleBlackOpaque;
-	[self.loadingActionSheet showInView:self.view];
+	[self.loadingActionSheet showFromTabBar:appDelegate.tabBarController.tabBar];
 }
 
 - (void) hideLoadingSheet {

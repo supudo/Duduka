@@ -3,7 +3,7 @@
 //  iT-POS4
 //
 //  Created by Sergey Petrov on 2/15/10.
-//  Copyright 2010 ElyonServices. All rights reserved.
+//  Copyright 2010 ILoveVelvet. All rights reserved.
 //
 
 #import "BlackAlertView.h"
@@ -14,13 +14,13 @@
 
 @end
 
+@implementation BlackAlertView
+
 static UIColor *fillColor = nil;
 static UIColor *borderColor = nil;
 
-@implementation BlackAlertView
-
 + (void) setBackgroundColor:(UIColor *) background withStrokeColor:(UIColor *) stroke {
-	if(fillColor != nil) {
+	if (fillColor != nil) {
 		[fillColor release];
 		[borderColor release];
 	}
@@ -29,7 +29,7 @@ static UIColor *borderColor = nil;
 }
 
 - (id)initWithFrame:(CGRect)frame {
-    if ((self = [super initWithFrame:frame])) {
+    if (self = [super initWithFrame:frame]) {
         if (fillColor == nil) {
 			fillColor = [[UIColor blackColor] retain];
 			borderColor = [[UIColor colorWithHue:0.625 saturation:0.0 brightness:0.8 alpha:0.8] retain];
@@ -38,7 +38,20 @@ static UIColor *borderColor = nil;
     return self;
 }
 
-- (void)drawRect:(CGRect)rect {	
+- (void)layoutSubviews {
+	for (UIView *sub in [self subviews]) {
+		if ([sub class] == [UIImageView class] && sub.tag == 0) {
+			// The alert background UIImageView tag is 0, 
+			// if you are adding your own UIImageView's 
+			// make sure your tags != 0 or this fix 
+			// will remove your UIImageView's as well!
+			[sub removeFromSuperview];
+			break;
+		}
+	}
+}
+
+- (void)drawRect:(CGRect)rect {
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	
 	CGContextClearRect(context, rect);
