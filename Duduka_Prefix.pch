@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'Duduka' target in the 'Duduka' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+	#import <CoreData/CoreData.h>
+	#import <MediaPlayer/MediaPlayer.h>
+	#import "DudukaAppDelegate.h"
+	#import "AppSettings.h"
+#endif

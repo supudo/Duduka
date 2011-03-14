@@ -1,0 +1,56 @@
+"Common.Error" = "Error occured.";
+"Common.Error400" = "Rate limit excedeed.";
+"Common.Error403" = "Invalid username and/or password.";
+"Common.Error500" = "Server error.\n Please, try again.";
+
+"Common.Loading" = "Loading...";
+"Common.OK" = "OK";
+"Common.Cancel" = "Cancel";
+"Common.Close" = "Close";
+"Common.Username" = "Username";
+"Common.Password" = "Password";
+"Common.Retry" = "Retry";
+"Common.Mail" = "Mail";
+
+"Categories.NavTitle" = "Categories";
+"Categories.AddNew" = "Add";
+
+"CategoriesAddNew.NavTitle" = "Add new";
+"CategoriesAddNew.Save" = "Save";
+"CategoriesAddNew.ParentCategory" = "Under category:";
+"CategoriesAddNew.Root" = " < Root Level > ";
+
+"Feeds.NavTitle" = "Feeds";
+"Feeds.AddNew" = "Add";
+
+"FeedsAddNew.NavTitle" = "Add new";
+"FeedsAddNew.ParentCategory" = "Under category:";
+"FeedsAddNew.Save" = "Save";
+"FeedsAddNew.Finished" = "Parsing finished.\n Feed saved.";
+
+"FeedData.Refresh" = "Refresh";
+
+"Settings.Item.AutoRefresh" = "Auto-refresh interval";
+"Settings.Item.WipeData" = "Reset Feed Data";
+"Settings.Item.WipeDataWarning" = "Warning - can NOT be undone!";
+"Settings.Item.SocialNetworks" = "Social Networks";
+"Settings.WipePrompt" = "Are you sure?\n This operation cannot be undone.";
+"Settings.WipeoutFinished" = "Feed data cleared.\n Have a nice day.";
+"Settings.Save" = "Save";
+"Settings.SN.Instapaper" = "Instapaper";
+
+"SN.Instapaper.Success" = "Submit was successfull.\n Have a nice day.";
+
+"About.Copyright" = "Copyright © 2010 supudo.net";
+"About.Version" = "Version %@";
+
+"Email.ReadItHere" = "Read: ";
+"Email.CommentItHere" = "Comment: ";
+"Email.CannotSend" = "Cannot send the email.";
+"Email.Sending" = "Sending...";
+
+"Notes.Menu.Text" = "Text";
+"Notes.Menu.Draw" = "Draw";
+"Notes.Save" = "Save";
+"Notes.Clear" = "Clear";
+"Notes.Color" = "Color";
