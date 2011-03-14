@@ -69,6 +69,8 @@
 		8A9A3AAA12378E2700842C52 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9A3AA912378E2700842C52 /* QuartzCore.framework */; };
 		8AB81A4F122F9D0E00A230F0 /* AutoRefreshInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB81A4D122F9D0E00A230F0 /* AutoRefreshInterval.m */; };
 		8AB81A50122F9D0E00A230F0 /* AutoRefreshInterval.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB81A4E122F9D0E00A230F0 /* AutoRefreshInterval.xib */; };
+		8AC2E6E8132E73AA00AA46CF /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = 8AC2E6E7132E73AA00AA46CF /* ChangeLog */; };
+		8AC2E6EA132E73C000AA46CF /* README in Resources */ = {isa = PBXBuildFile; fileRef = 8AC2E6E9132E73C000AA46CF /* README */; };
 		8AC9BAFF1237953100B9F8A1 /* black-button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9BAFE1237953100B9F8A1 /* black-button.jpg */; };
 		8AC9BB10123796BF00B9F8A1 /* instapaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9BB0F123796BF00B9F8A1 /* instapaper.png */; };
 		8AC9BB15123796FE00B9F8A1 /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9BB14123796FE00B9F8A1 /* safari.png */; };
@@ -175,6 +177,8 @@
 		8AB81A4C122F9D0E00A230F0 /* AutoRefreshInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoRefreshInterval.h; path = ../AutoRefreshInterval.h; sourceTree = "<group>"; };
 		8AB81A4D122F9D0E00A230F0 /* AutoRefreshInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutoRefreshInterval.m; path = ../AutoRefreshInterval.m; sourceTree = "<group>"; };
 		8AB81A4E122F9D0E00A230F0 /* AutoRefreshInterval.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoRefreshInterval.xib; sourceTree = "<group>"; };
+		8AC2E6E7132E73AA00AA46CF /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		8AC2E6E9132E73C000AA46CF /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		8AC9BAFE1237953100B9F8A1 /* black-button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black-button.jpg"; sourceTree = "<group>"; };
 		8AC9BB0F123796BF00B9F8A1 /* instapaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instapaper.png; sourceTree = "<group>"; };
 		8AC9BB14123796FE00B9F8A1 /* safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safari.png; sourceTree = "<group>"; };
@@ -238,6 +242,7 @@
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				8AC2E6E6132E738600AA46CF /* Documentation */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				8A16A586122BF6B700D6E46F /* PLists */,
 			);
@@ -589,6 +594,15 @@
 			name = Other;
 			sourceTree = "<group>";
 		};
+		8AC2E6E6132E738600AA46CF /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				8AC2E6E7132E73AA00AA46CF /* ChangeLog */,
+				8AC2E6E9132E73C000AA46CF /* README */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
 		8AC9BB3512379D4100B9F8A1 /* SocialNets */ = {
 			isa = PBXGroup;
 			children = (
@@ -677,6 +691,8 @@
 				8AC9BBBD1237A2E400B9F8A1 /* social-nets.png in Resources */,
 				8A65DD931237BD0200C4689A /* mail.png in Resources */,
 				8A65E17E1238C3F800C4689A /* NotesDrawView.xib in Resources */,
+				8AC2E6E8132E73AA00AA46CF /* ChangeLog in Resources */,
+				8AC2E6EA132E73C000AA46CF /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
