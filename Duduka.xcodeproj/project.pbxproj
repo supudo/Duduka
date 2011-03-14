@@ -750,7 +750,7 @@
 				GCC_PREFIX_HEADER = Duduka_Prefix.pch;
 				INFOPLIST_FILE = "Duduka-Info.plist";
 				PRODUCT_NAME = Duduka;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -763,7 +763,7 @@
 				GCC_PREFIX_HEADER = Duduka_Prefix.pch;
 				INFOPLIST_FILE = "Duduka-Info.plist";
 				PRODUCT_NAME = Duduka;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
