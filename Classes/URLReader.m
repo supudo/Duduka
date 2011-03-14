@@ -30,7 +30,7 @@
 	
 	if (error != nil && [error localizedDescription] != nil) {
 		data = @"";
-		[[AppSettings sharedAppSettings] LogThis:[NSString stringWithFormat:@"ENC - Connection Failed: %@ %@", [error localizedDescription], [[error userInfo] objectForKey:NSErrorFailingURLStringKey]]];
+		[[AppSettings sharedAppSettings] LogThis:[NSString stringWithFormat:@"ENC - Connection Failed: %@", [error localizedDescription]]];
 		if (self.delegate != NULL && [self.delegate respondsToSelector:@selector(urlRequestError:errorMessage:)])
 			[delegate urlRequestError:self errorMessage:[error localizedFailureReason]];
 	}
