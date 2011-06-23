@@ -1,2336 +1,0 @@
-TDuduka
-v7
-r0
-t305815107.813953
-cCheck dependencies
-cProcessInfoPlistFile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Info.plist Duduka-Info.plist
-cCompileXIB /Users/supudo/_Private/Duduka/MainWindow.xib
-cCompileXIB /Users/supudo/_Private/Duduka/Loading.xib
-cCompileXIB /Users/supudo/_Private/Duduka/Settings.xib
-cCompileXIB /Users/supudo/_Private/Duduka/Categories.xib
-cCpResource build/Debug-iphonesimulator/Duduka.app/tb-settings.png tb-settings.png
-cCpResource build/Debug-iphonesimulator/Duduka.app/tb-feeds.png tb-feeds.png
-cCopyStringsFile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/English.lproj/Localizable.strings English.lproj/Localizable.strings
-cCompileXIB /Users/supudo/_Private/Duduka/Feeds.xib
-cCompileXIB /Users/supudo/_Private/Duduka/Classes/CategoriesAddNew.xib
-cCompileXIB /Users/supudo/_Private/Duduka/FeedsAddNew.xib
-cCpResource build/Debug-iphonesimulator/Duduka.app/eenk.com.xml eenk.com.xml
-cCompileXIB /Users/supudo/_Private/Duduka/FeedData.xib
-cCompileXIB /Users/supudo/_Private/Duduka/FeedItemView.xib
-cCpResource build/Debug-iphonesimulator/Duduka.app/kldn.net.xml kldn.net.xml
-cCpResource build/Debug-iphonesimulator/Duduka.app/refresh.png refresh.png
-cCpResource build/Debug-iphonesimulator/Duduka.app/wipe-data.png wipe-data.png
-cCompileXIB /Users/supudo/_Private/Duduka/AutoRefreshInterval.xib
-cCpResource build/Debug-iphonesimulator/Duduka.app/tb-notes.png tb-notes.png
-cCpResource build/Debug-iphonesimulator/Duduka.app/tb-about.png tb-about.png
-cCompileXIB /Users/supudo/_Private/Duduka/About.xib
-cCompileXIB /Users/supudo/_Private/Duduka/Notes.xib
-cCpResource build/Debug-iphonesimulator/Duduka.app/black-button.jpg black-button.jpg
-cCpResource build/Debug-iphonesimulator/Duduka.app/instapaper.png instapaper.png
-cCpResource build/Debug-iphonesimulator/Duduka.app/safari.png safari.png
-cCompileXIB /Users/supudo/_Private/Duduka/Classes/SocialNetworks.xib
-cCompileXIB /Users/supudo/_Private/Duduka/Classes/SocialNetworksInstapaper.xib
-cCpResource build/Debug-iphonesimulator/Duduka.app/social-nets.png social-nets.png
-cCpResource build/Debug-iphonesimulator/Duduka.app/mail.png mail.png
-cCompileXIB /Users/supudo/_Private/Duduka/NotesDrawView.xib
-cProcessPCH /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch.gch Duduka_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cDataModelCompile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka.mom /Users/supudo/_Private/Duduka/Duduka.xcdatamodel
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/main.o /Users/supudo/_Private/Duduka/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/DudukaAppDelegate.o /Users/supudo/_Private/Duduka/Classes/DudukaAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Loading.o /Users/supudo/_Private/Duduka/Classes/../Loading.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Settings.o /Users/supudo/_Private/Duduka/Classes/../Settings.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Categories.o /Users/supudo/_Private/Duduka/Classes/../Categories.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AppSettings.o /Users/supudo/_Private/Duduka/Classes/AppSettings.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbSettings.o /Users/supudo/_Private/Duduka/Classes/dbSettings.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbCategory.o /Users/supudo/_Private/Duduka/Classes/dbCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbFeed.o /Users/supudo/_Private/Duduka/Classes/dbFeed.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbFeedData.o /Users/supudo/_Private/Duduka/Classes/dbFeedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Reachability.o /Users/supudo/_Private/Duduka/Classes/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/DBManagedObjectContext.o /Users/supudo/_Private/Duduka/Classes/DBManagedObjectContext.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Feeds.o /Users/supudo/_Private/Duduka/Classes/../Feeds.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/CategoriesAddNew.o /Users/supudo/_Private/Duduka/Classes/CategoriesAddNew.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedsAddNew.o /Users/supudo/_Private/Duduka/Classes/../FeedsAddNew.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/RssParser.o /Users/supudo/_Private/Duduka/Classes/RssParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/URLReader.o /Users/supudo/_Private/Duduka/Classes/URLReader.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/BlackAlertView.o /Users/supudo/_Private/Duduka/Classes/BlackAlertView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/PDColoredProgressDrawing.o /Users/supudo/_Private/Duduka/Classes/PDColoredProgressDrawing.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/PDColoredProgressView.o /Users/supudo/_Private/Duduka/Classes/PDColoredProgressView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedData.o /Users/supudo/_Private/Duduka/Classes/../FeedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbImageToDataTransformer.o /Users/supudo/_Private/Duduka/Classes/dbImageToDataTransformer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedItemView.o /Users/supudo/_Private/Duduka/Classes/../FeedItemView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AutoRefreshInterval.o /Users/supudo/_Private/Duduka/Classes/../AutoRefreshInterval.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedWorker.o /Users/supudo/_Private/Duduka/Classes/FeedWorker.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/UINavigationItemCleanBG.o /Users/supudo/_Private/Duduka/Classes/UINavigationItemCleanBG.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/About.o /Users/supudo/_Private/Duduka/Classes/../About.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Notes.o /Users/supudo/_Private/Duduka/Classes/../Notes.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/LoadingView.o /Users/supudo/_Private/Duduka/Classes/LoadingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SNInstapaper.o /Users/supudo/_Private/Duduka/Classes/SNInstapaper.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SocialNetworks.o /Users/supudo/_Private/Duduka/Classes/SocialNetworks.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SocialNetworksInstapaper.o /Users/supudo/_Private/Duduka/Classes/SocialNetworksInstapaper.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/MCSegmentedControl.o /Users/supudo/_Private/Duduka/Classes/MCSegmentedControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/NotesDrawView.o /Users/supudo/_Private/Duduka/Classes/../NotesDrawView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka normal i386
-cGenerateDSYMFile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app.dSYM /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka
-cTouch /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C494D410000000000000132
-t1279872321
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004BFDFEB400000000001CFA90
-t1274937012
-s1899152
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c000000004BFDFEA8000000000000046B
-t1274937000
-s1131
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
-c000000004BFDFD720000000000000AB3
-t1274936690
-s2739
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
-c000000004C04730A0000000000000268
-t1275360010
-s616
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c000000004C0473250000000000155C80
-t1275360037
-s1399936
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
-c000000004C04728100000000000000CD
-t1275359873
-s205
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
-c000000004C04728D0000000000090330
-t1275359885
-s590640
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C04586B00000000000000C4
-t1275353195
-s196
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C0458E90000000000151D30
-t1275353321
-s1383728
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
-c000000004BFDFDA40000000000001AE5
-t1274936740
-s6885
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c000000004BFDFDAA000000000005E690
-t1274936746
-s386704
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/arpa/inet.h
-c000000004A4180D20000000000001533
-t1245806802
-s5427
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/ifaddrs.h
-c000000004A4180E20000000000000782
-t1245806818
-s1922
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/netdb.h
-c000000004A4181220000000000003057
-t1245806882
-s12375
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/netinet/in.h
-c000000004A73D64C000000000000539D
-t1249105484
-s21405
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/netinet6/in6.h
-c000000004A73D64B0000000000004F5B
-t1249105483
-s20315
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/sys/socket.h
-c000000004A73D65400000000000059BC
-t1249105492
-s22972
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
-c000000004C6C30170000000000000110
-t1282158615
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004C5A4E0B00000000001D2EC0
-t1280986635
-s1912512
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c000000004C5A4DED000000000000046B
-t1280986605
-s1131
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
-c000000004C5A4C8C0000000000000AB3
-t1280986252
-s2739
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A4DB60000000000295900
-t1280986550
-s2709760
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A4DB0000000000029D580
-t1280986544
-s2741632
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A4DA10000000000001466
-t1280986529
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
-c000000004C68B9E40000000000000268
-t1281931748
-s616
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c000000004C68BA00000000000015B0F0
-t1281931776
-s1421552
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
-c000000004C5E1EEF00000000000000CD
-t1281236719
-s205
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
-c000000004C5E1EFD0000000000091C50
-t1281236733
-s597072
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C5A505200000000000000C4
-t1280987218
-s196
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C5A50EF0000000000154E50
-t1280987375
-s1396304
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
-c000000004C5A4CC90000000000001A58
-t1280986313
-s6744
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c000000004C5A4CD400000000000678D0
-t1280986324
-s424144
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C6241ED00000000000009CD
-t1281507821
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C6242840000000001E228C0
-t1281507972
-s31598784
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/arpa/inet.h
-c000000004A4180D20000000000001533
-t1245806802
-s5427
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/ifaddrs.h
-c000000004A4180E20000000000000782
-t1245806818
-s1922
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/netdb.h
-c000000004A4181220000000000003057
-t1245806882
-s12375
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/netinet/in.h
-c000000004C5798F80000000000005462
-t1280809208
-s21602
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/netinet6/in6.h
-c000000004C5798E10000000000004F61
-t1280809185
-s20321
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/sys/socket.h
-c000000004C5798EC00000000000059D6
-t1280809196
-s22998
-
-N/Users/supudo/_Private/Duduka/104-index-cards.png
-c000000004AA69E620000000000000107
-t1252433506
-s263
-
-N/Users/supudo/_Private/Duduka/112-group.png
-c000000004B82BEC200000000000001D3
-t1266859714
-s467
-
-N/Users/supudo/_Private/Duduka/28-star.png
-c000000004971B56C0000000000000177
-t1232188780
-s375
-
-N/Users/supudo/_Private/Duduka/About.h
-c000000004C863A96000000000000017D
-t1283865238
-s381
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/About.m
-c000000004C86398E000000000000056C
-t1283864974
-s1388
-i"About.h"
-
-N/Users/supudo/_Private/Duduka/About.xib
-c000000004C875D8F0000000000005B17
-t1283939727
-s23319
-
-N/Users/supudo/_Private/Duduka/AutoRefreshInterval.h
-c000000004C7F81DA0000000000000137
-t1283424730
-s311
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/AutoRefreshInterval.m
-c000000004C7F658E0000000000000596
-t1283417486
-s1430
-i"AutoRefreshInterval.h"
-
-N/Users/supudo/_Private/Duduka/AutoRefreshInterval.xib
-c000000004C7F83470000000000004650
-t1283425095
-s18000
-
-N/Users/supudo/_Private/Duduka/Bulgarian.lproj/Localizable.strings
-c000000004C8650D2000000000000057D
-t1283870930
-s1405
-
-N/Users/supudo/_Private/Duduka/Categories.h
-c000000004C862CA8000000000000020C
-t1283861672
-s524
-i<UIKit/UIKit.h>
-i"dbCategory.h"
-
-N/Users/supudo/_Private/Duduka/Categories.xib
-c000000004C7E13D400000000000049C0
-t1283331028
-s18880
-
-N/Users/supudo/_Private/Duduka/Classes/../About.m
-c000000004C8A269E000000000000052A
-t1284122270
-s1322
-i"About.h"
-
-N/Users/supudo/_Private/Duduka/Classes/../AutoRefreshInterval.m
-c000000004C86487E0000000000000A9D
-t1283868798
-s2717
-i"AutoRefreshInterval.h"
-i"DBManagedObjectContext.h"
-i"dbSettings.h"
-
-N/Users/supudo/_Private/Duduka/Classes/../Categories.m
-c000000004C864EA40000000000002209
-t1283870372
-s8713
-i"Categories.h"
-i"DBManagedObjectContext.h"
-i"Feeds.h"
-i"CategoriesAddNew.h"
-i"BlackAlertView.h"
-
-N/Users/supudo/_Private/Duduka/Classes/../FeedCell.m
-c000000004C809B1F0000000000000122
-t1283496735
-s290
-i"FeedCell.h"
-
-N/Users/supudo/_Private/Duduka/Classes/../FeedData.m
-c000000004C87A60400000000000028A6
-t1283958276
-s10406
-i"FeedData.h"
-i"DBManagedObjectContext.h"
-i"FeedItemView.h"
-i"BlackAlertView.h"
-i"UINavigationItemCleanBG.h"
-
-N/Users/supudo/_Private/Duduka/Classes/../FeedItemView.m
-c000000004C8A27C10000000000003CEB
-t1284122561
-s15595
-i"FeedItemView.h"
-i"DBManagedObjectContext.h"
-i"dbFeedData.h"
-i"UINavigationItemCleanBG.h"
-i"BlackAlertView.h"
-
-N/Users/supudo/_Private/Duduka/Classes/../Feeds.m
-c000000004C8652890000000000001AFC
-t1283871369
-s6908
-i"Feeds.h"
-i"DBManagedObjectContext.h"
-i"FeedsAddNew.h"
-i"FeedData.h"
-i"UINavigationItemCleanBG.h"
-
-N/Users/supudo/_Private/Duduka/Classes/../FeedsAddNew.m
-c000000004C86486D0000000000001070
-t1283868781
-s4208
-i"FeedsAddNew.h"
-i"DBManagedObjectContext.h"
-i"BlackAlertView.h"
-
-N/Users/supudo/_Private/Duduka/Classes/../Loading.h
-c000000004C7BBE7500000000000000C4
-t1283178101
-s196
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/Classes/../Loading.m
-c000000004C7FA5AF0000000000000550
-t1283433903
-s1360
-i"Loading.h"
-i"DBManagedObjectContext.h"
-
-N/Users/supudo/_Private/Duduka/Classes/../Notes.m
-c000000004C8A26870000000000001A1D
-t1284122247
-s6685
-i"Notes.h"
-i<QuartzCore/QuartzCore.h>
-i"MCSegmentedControl.h"
-i"UINavigationItemCleanBG.h"
-
-N/Users/supudo/_Private/Duduka/Classes/../NotesDrawView.m
-c000000004C8A268A0000000000000ADB
-t1284122250
-s2779
-i"NotesDrawView.h"
-
-N/Users/supudo/_Private/Duduka/Classes/../Settings.m
-c000000004C876A9600000000000010EB
-t1283943062
-s4331
-i"Settings.h"
-i"DBManagedObjectContext.h"
-i"BlackAlertView.h"
-i"AutoRefreshInterval.h"
-i"SocialNetworks.h"
-
-N/Users/supudo/_Private/Duduka/Classes/AppSettings.h
-c000000004C863B400000000000000222
-t1283865408
-s546
-i<Foundation/Foundation.h>
-i"SynthesizeSingleton.h"
-
-N/Users/supudo/_Private/Duduka/Classes/AppSettings.m
-c000000004C863B5B000000000000042F
-t1283865435
-s1071
-i"AppSettings.h"
-i"Reachability.h"
-
-N/Users/supudo/_Private/Duduka/Classes/AutoRefresh.h
-c000000004C7FA5F100000000000001C3
-t1283433969
-s451
-i<Foundation/Foundation.h>
-
-N/Users/supudo/_Private/Duduka/Classes/AutoRefresh.m
-c000000004C7FA605000000000000010A
-t1283433989
-s266
-i"AutoRefresh.h"
-
-N/Users/supudo/_Private/Duduka/Classes/BackgroundWorkers.h
-c000000004C7FA61F00000000000000D7
-t1283434015
-s215
-i<UIKit/UIKit.h>
-i"AutoRefresh.h"
-
-N/Users/supudo/_Private/Duduka/Classes/BlackAlertView.h
-c000000004C5AC09F000000000000012E
-t1281015967
-s302
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/Classes/BlackAlertView.m
-c000000004C5AC09F0000000000000DB6
-t1281015967
-s3510
-i"BlackAlertView.h"
-
-N/Users/supudo/_Private/Duduka/Classes/CategoriesAddNew.h
-c000000004C7F7666000000000000023D
-t1283421798
-s573
-i<UIKit/UIKit.h>
-i"dbCategory.h"
-
-N/Users/supudo/_Private/Duduka/Classes/CategoriesAddNew.m
-c000000004C7F76710000000000000801
-t1283421809
-s2049
-i"CategoriesAddNew.h"
-i"DBManagedObjectContext.h"
-i"BlackAlertView.h"
-
-N/Users/supudo/_Private/Duduka/Classes/CategoriesAddNew.xib
-c000000004C7BD98C0000000000005A36
-t1283185036
-s23094
-
-N/Users/supudo/_Private/Duduka/Classes/DBManagedObjectContext.h
-c000000004C7FCD350000000000000553
-t1283444021
-s1363
-i<Foundation/Foundation.h>
-
-N/Users/supudo/_Private/Duduka/Classes/DBManagedObjectContext.m
-c000000004C7FCD860000000000001C5B
-t1283444102
-s7259
-i"DBManagedObjectContext.h"
-
-N/Users/supudo/_Private/Duduka/Classes/DudukaAppDelegate.h
-c000000004C7FA6F5000000000000022E
-t1283434229
-s558
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/Classes/DudukaAppDelegate.m
-c000000004C7FCF7700000000000007BE
-t1283444599
-s1982
-i"DudukaAppDelegate.h"
-i"Loading.h"
-i"FeedWorker.h"
-
-N/Users/supudo/_Private/Duduka/Classes/DudukaViewController.h
-c000000004C7BCDB300000000000001D5
-t1283182003
-s469
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/Classes/DudukaViewController.m
-c000000004C7E15BE000000000000086E
-t1283331518
-s2158
-i"DudukaViewController.h"
-i"Loading.h"
-
-N/Users/supudo/_Private/Duduka/Classes/FeedWorker.h
-c000000004C7FCD3300000000000000E4
-t1283444019
-s228
-i<Foundation/Foundation.h>
-
-N/Users/supudo/_Private/Duduka/Classes/FeedWorker.m
-c000000004C7FCD7F00000000000003A0
-t1283444095
-s928
-i"FeedWorker.h"
-i"DBManagedObjectContext.h"
-i"RssParser.h"
-
-N/Users/supudo/_Private/Duduka/Classes/LoadingView.h
-c000000004C8756290000000000000270
-t1283937833
-s624
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/Classes/LoadingView.m
-c000000004C8759230000000000000FDA
-t1283938595
-s4058
-i"LoadingView.h"
-i<QuartzCore/QuartzCore.h>
-
-N/Users/supudo/_Private/Duduka/Classes/MCSegmentedControl.h
-c000000004BFA3BD400000000000002E8
-t1274690516
-s744
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/Classes/MCSegmentedControl.m
-c000000004BFA3BCF0000000000004887
-t1274690511
-s18567
-i"MCSegmentedControl.h"
-
-N/Users/supudo/_Private/Duduka/Classes/NotesDrawView.h
-c000000004C888B3000000000000000D1
-t1284016944
-s209
-i<Foundation/Foundation.h>
-
-N/Users/supudo/_Private/Duduka/Classes/NotesDrawView.m
-c000000004C888BF800000000000000BD
-t1284017144
-s189
-i"NotesDrawView.h"
-
-N/Users/supudo/_Private/Duduka/Classes/PDColoredProgressDrawing.m
-c000000004C5AC09F0000000000001475
-t1281015967
-s5237
-
-N/Users/supudo/_Private/Duduka/Classes/PDColoredProgressView.h
-c000000004C5AC09F0000000000000531
-t1281015967
-s1329
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/Classes/PDColoredProgressView.m
-c000000004C5AC09F0000000000000F94
-t1281015967
-s3988
-i"PDColoredProgressView.h"
-i"PDColoredProgressDrawing.m"
-
-N/Users/supudo/_Private/Duduka/Classes/Reachability.h
-c000000004C567B920000000000000F1A
-t1280736146
-s3866
-i<Foundation/Foundation.h>
-i<SystemConfiguration/SystemConfiguration.h>
-
-N/Users/supudo/_Private/Duduka/Classes/Reachability.m
-c000000004C7BA1CD000000000000239E
-t1283170765
-s9118
-i<sys/socket.h>
-i<netinet/in.h>
-i<netinet6/in6.h>
-i<arpa/inet.h>
-i<ifaddrs.h>
-i<netdb.h>
-i<CoreFoundation/CoreFoundation.h>
-i"Reachability.h"
-
-N/Users/supudo/_Private/Duduka/Classes/RssParser.h
-c000000004C7D2A5B000000000000059A
-t1283271259
-s1434
-i<Foundation/Foundation.h>
-i"dbCategory.h"
-i"dbFeed.h"
-i"dbFeedData.h"
-i"URLReader.h"
-
-N/Users/supudo/_Private/Duduka/Classes/RssParser.m
-c000000004C8767D40000000000001E02
-t1283942356
-s7682
-i"RssParser.h"
-i"DBManagedObjectContext.h"
-
-N/Users/supudo/_Private/Duduka/Classes/SNInstapaper.h
-c000000004C877A790000000000000218
-t1283947129
-s536
-i<Foundation/Foundation.h>
-i"dbFeedData.h"
-
-N/Users/supudo/_Private/Duduka/Classes/SNInstapaper.m
-c000000004C87853000000000000008C2
-t1283949872
-s2242
-i"SNInstapaper.h"
-i"DBManagedObjectContext.h"
-i"URLReader.h"
-
-N/Users/supudo/_Private/Duduka/Classes/SocialNetworks.h
-c000000004C8769F600000000000000D6
-t1283942902
-s214
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/Classes/SocialNetworks.m
-c000000004C8784BA00000000000007CB
-t1283949754
-s1995
-i"SocialNetworks.h"
-i"SocialNetworksInstapaper.h"
-
-N/Users/supudo/_Private/Duduka/Classes/SocialNetworks.xib
-c000000004C8783D10000000000004575
-t1283949521
-s17781
-
-N/Users/supudo/_Private/Duduka/Classes/SocialNetworksInstapaper.h
-c000000004C876BDD00000000000001CD
-t1283943389
-s461
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/Classes/SocialNetworksInstapaper.m
-c000000004C87839F0000000000000BF6
-t1283949471
-s3062
-i"SocialNetworksInstapaper.h"
-i"DBManagedObjectContext.h"
-i"dbSettings.h"
-
-N/Users/supudo/_Private/Duduka/Classes/SocialNetworksInstapaper.xib
-c000000004C876F8C00000000000062DC
-t1283944332
-s25308
-
-N/Users/supudo/_Private/Duduka/Classes/SynthesizeSingleton.h
-c000000004C5AC09F00000000000004FA
-t1281015967
-s1274
-
-N/Users/supudo/_Private/Duduka/Classes/Threads.h
-c000000004C7F877900000000000000E4
-t1283426169
-s228
-i<Foundation/Foundation.h>
-
-N/Users/supudo/_Private/Duduka/Classes/Threads.m
-c000000004C7F88CD00000000000003C2
-t1283426509
-s962
-i"Threads.h"
-
-N/Users/supudo/_Private/Duduka/Classes/UINavigationItemCleanBG.h
-c000000004C861E5F0000000000000179
-t1283858015
-s377
-i<Foundation/Foundation.h>
-
-N/Users/supudo/_Private/Duduka/Classes/UINavigationItemCleanBG.m
-c000000004C861E5D00000000000004CD
-t1283858013
-s1229
-i"UINavigationItemCleanBG.h"
-
-N/Users/supudo/_Private/Duduka/Classes/URLReader.h
-c000000004C876F200000000000000279
-t1283944224
-s633
-i<Foundation/Foundation.h>
-
-N/Users/supudo/_Private/Duduka/Classes/URLReader.m
-c000000004C876ED500000000000010EA
-t1283944149
-s4330
-i"URLReader.h"
-
-N/Users/supudo/_Private/Duduka/Classes/dbCategory.h
-c000000004C7BCE9B000000000000024C
-t1283182235
-s588
-i<CoreData/CoreData.h>
-
-N/Users/supudo/_Private/Duduka/Classes/dbCategory.m
-c000000004C7BCE8D0000000000000105
-t1283182221
-s261
-i"dbCategory.h"
-i"dbFeed.h"
-
-N/Users/supudo/_Private/Duduka/Classes/dbFeed.h
-c000000004C8097C300000000000003B6
-t1283495875
-s950
-i<CoreData/CoreData.h>
-
-N/Users/supudo/_Private/Duduka/Classes/dbFeed.m
-c000000004C8097BE00000000000001A7
-t1283495870
-s423
-i"dbFeed.h"
-i"dbCategory.h"
-i"dbFeedData.h"
-i"dbSettings.h"
-
-N/Users/supudo/_Private/Duduka/Classes/dbFeedData.h
-c000000004C8097C500000000000002A0
-t1283495877
-s672
-i<CoreData/CoreData.h>
-
-N/Users/supudo/_Private/Duduka/Classes/dbFeedData.m
-c000000004C8097C0000000000000016C
-t1283495872
-s364
-i"dbFeedData.h"
-i"dbFeed.h"
-
-N/Users/supudo/_Private/Duduka/Classes/dbImageToDataTransformer.h
-c000000004C5AC09F0000000000000104
-t1281015967
-s260
-i<Foundation/Foundation.h>
-
-N/Users/supudo/_Private/Duduka/Classes/dbImageToDataTransformer.m
-c000000004C5AC09F000000000000024F
-t1281015967
-s591
-i"dbImageToDataTransformer.h"
-
-N/Users/supudo/_Private/Duduka/Classes/dbSettings.h
-c000000004C7F828D0000000000000172
-t1283424909
-s370
-i<CoreData/CoreData.h>
-
-N/Users/supudo/_Private/Duduka/Classes/dbSettings.m
-c000000004C7BA0E700000000000000FC
-t1283170535
-s252
-i"dbSettings.h"
-i"dbFeed.h"
-
-N/Users/supudo/_Private/Duduka/Duduka.xcdatamodel
-c000000004C8097B80000000000000088
-t1283495864
-s136
-
-N/Users/supudo/_Private/Duduka/DudukaViewController.xib
-c000000004C7BC1660000000000003C14
-t1283178854
-s15380
-
-N/Users/supudo/_Private/Duduka/Duduka_Prefix.pch
-c000000004C7BC1A9000000000000012B
-t1283178921
-s299
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-i<MediaPlayer/MediaPlayer.h>
-i"DudukaAppDelegate.h"
-i"AppSettings.h"
-
-N/Users/supudo/_Private/Duduka/English.lproj/Localizable.strings
-c000000004C890D990000000000000700
-t1284050329
-s1792
-
-N/Users/supudo/_Private/Duduka/FeedCell.h
-c000000004C809B0700000000000000C5
-t1283496711
-s197
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/FeedCell.m
-c000000004C809B070000000000000575
-t1283496711
-s1397
-i"FeedCell.h"
-
-N/Users/supudo/_Private/Duduka/FeedCell.xib
-c000000004C809B700000000000003E30
-t1283496816
-s15920
-
-N/Users/supudo/_Private/Duduka/FeedData.h
-c000000004C8618CC0000000000000429
-t1283856588
-s1065
-i<UIKit/UIKit.h>
-i"dbFeed.h"
-i"dbFeedData.h"
-i"RssParser.h"
-
-N/Users/supudo/_Private/Duduka/FeedData.xib
-c000000004C86255E00000000000058A8
-t1283859806
-s22696
-
-N/Users/supudo/_Private/Duduka/FeedItemView.h
-c000000004C8792AF0000000000000472
-t1283953327
-s1138
-i<UIKit/UIKit.h>
-i<MessageUI/MessageUI.h>
-i"dbFeedData.h"
-i"LoadingView.h"
-i"SNInstapaper.h"
-
-N/Users/supudo/_Private/Duduka/FeedItemView.xib
-c000000004C8643410000000000004F86
-t1283867457
-s20358
-
-N/Users/supudo/_Private/Duduka/Feeds.h
-c000000004C862CAD0000000000000211
-t1283861677
-s529
-i<UIKit/UIKit.h>
-i"dbCategory.h"
-i"dbFeed.h"
-
-N/Users/supudo/_Private/Duduka/Feeds.xib
-c000000004C7BE6E200000000000044A0
-t1283188450
-s17568
-
-N/Users/supudo/_Private/Duduka/FeedsAddNew.h
-c000000004C7F7689000000000000036C
-t1283421833
-s876
-i<UIKit/UIKit.h>
-i"dbCategory.h"
-i"dbFeed.h"
-i"RssParser.h"
-
-N/Users/supudo/_Private/Duduka/FeedsAddNew.xib
-c000000004C7BE40A0000000000006138
-t1283187722
-s24888
-
-N/Users/supudo/_Private/Duduka/Loading.h
-c000000004C7BBE7500000000000000C4
-t1283178101
-s196
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/Loading.xib
-c000000004C7BC418000000000000452F
-t1283179544
-s17711
-
-N/Users/supudo/_Private/Duduka/Localizable.strings
-c000000004C864EEC0000000000000432
-t1283870444
-s1074
-
-N/Users/supudo/_Private/Duduka/MainWindow.xib
-c000000004C87A8FE000000000000AFBF
-t1283959038
-s44991
-
-N/Users/supudo/_Private/Duduka/Notes.h
-c000000004C89D84600000000000003E0
-t1284102214
-s992
-i<UIKit/UIKit.h>
-i"NotesDrawView.h"
-
-N/Users/supudo/_Private/Duduka/Notes.m
-c000000004C8639CD000000000000056C
-t1283865037
-s1388
-i"Notes.h"
-
-N/Users/supudo/_Private/Duduka/Notes.xib
-c000000004C8A26B80000000000003A79
-t1284122296
-s14969
-
-N/Users/supudo/_Private/Duduka/NotesDrawView.h
-c000000004C8A259100000000000001AD
-t1284122001
-s429
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/NotesDrawView.m
-c000000004C888C780000000000000584
-t1284017272
-s1412
-i"NotesDrawView.h"
-
-N/Users/supudo/_Private/Duduka/NotesDrawView.xib
-c000000004C88FE3B0000000000002A82
-t1284046395
-s10882
-
-N/Users/supudo/_Private/Duduka/Safari.png
-c00000000483893C4000000000000185C
-t1211667396
-s6236
-
-N/Users/supudo/_Private/Duduka/Settings.h
-c000000004C7E1A7500000000000000E1
-t1283332725
-s225
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/Settings.xib
-c000000004C8642B500000000000042C8
-t1283867317
-s17096
-
-N/Users/supudo/_Private/Duduka/black-button.jpg
-c000000004C5AC0A10000000000000B8A
-t1281015969
-s2954
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app
-t1284122307
-s1190
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app.dSYM
-t1284122271
-s102
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/104-index-cards.png
-t2
-s0
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/112-group.png
-t2
-s0
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/28-star.png
-t2
-s0
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/About.nib
-t1284046852
-s3029
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/AutoRefreshInterval.nib
-t1284046852
-s1938
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Bulgarian.lproj/Localizable.strings
-t1283870932
-s1452
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Categories.nib
-t1284046850
-s1579
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/CategoriesAddNew.nib
-t1284046851
-s2975
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka
-t1284122271
-s266104
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka.mom
-t1284046854
-s4791
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/DudukaViewController.nib
-t1283329318
-s770
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/English.lproj/Localizable.strings
-t1284050330
-s1837
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/FeedCell.nib
-t1283496883
-s1185
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/FeedData.nib
-t1284046851
-s2372
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/FeedItemView.nib
-t1284046851
-s2059
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Feeds.nib
-t1284046851
-s1579
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/FeedsAddNew.nib
-t1284046851
-s3218
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Info.plist
-t1284046849
-s642
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Loading.nib
-t1284046850
-s2224
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Localizable.strings
-t2
-s0
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/MainWindow.nib
-t1284046850
-s5314
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Notes.nib
-t1284122307
-s2411
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/NotesDrawView.nib
-t1284046853
-s1633
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/PkgInfo
-t1284046849
-s8
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Safari.png
-t2
-s0
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Settings.nib
-t1284046850
-s1547
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/SocialNetworks.nib
-t1284046852
-s1547
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/SocialNetworksInstapaper.nib
-t1284046853
-s3299
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/black-button.jpg
-t1284046852
-s2954
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/button-big-black.jpg
-t2
-s0
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/eenk.com.xml
-t1284046851
-s24770
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/instapaper.png
-t1284046852
-s2220
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/kldn.net.xml
-t1284046851
-s21984
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/mail.png
-t1284046852
-s3002
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/refresh.png
-t1284046851
-s459
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/safari.png
-t1284046852
-s3302
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/social-nets.png
-t1284046852
-s467
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/tb-about.png
-t1284046852
-s375
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/tb-feeds.png
-t1284046850
-s347
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/tb-notes.png
-t1284046851
-s263
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/tb-settings.png
-t1284046850
-s375
-
-N/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/wipe-data.png
-t1284046851
-s743
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/About.o
-t1284122271
-s43092
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AppSettings.o
-t1284046854
-s18644
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AutoRefresh.o
-t1283434233
-s7636
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AutoRefreshInterval.o
-t1284046856
-s48972
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/BlackAlertView.o
-t1284046855
-s47604
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Categories.o
-t1284046854
-s77424
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/CategoriesAddNew.o
-t1284046855
-s51060
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/DBManagedObjectContext.o
-t1284046855
-s38416
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Duduka.LinkFileList
-c000000004C8900010000000000000FE8
-t1284046849
-s4072
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/DudukaAppDelegate.o
-t1284046854
-s55744
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/DudukaViewController.o
-t1283331816
-s51872
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedCell.o
-t1283496884
-s33792
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedData.o
-t1284046855
-s95172
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedItemView.o
-t1284046856
-s110652
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedWorker.o
-t1284046856
-s14668
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Feeds.o
-t1284046855
-s74640
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedsAddNew.o
-t1284046855
-s67268
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Loading.o
-t1284046854
-s48172
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/LoadingView.o
-t1284046856
-s41500
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/MCSegmentedControl.o
-t1284046856
-s77784
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Notes.o
-t1284122259
-s71252
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/NotesDrawView.o
-t1284122259
-s50292
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/PDColoredProgressDrawing.o
-t1284046855
-s8616
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/PDColoredProgressView.o
-t1284046855
-s45292
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Reachability.o
-t1284046855
-s22440
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/RssParser.o
-t1284046855
-s51104
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SNInstapaper.o
-t1284046856
-s19388
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Settings.o
-t1284046854
-s61460
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SocialNetworks.o
-t1284046856
-s41560
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SocialNetworksInstapaper.o
-t1284046856
-s53688
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Threads.o
-t1283426561
-s10980
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/UINavigationItemCleanBG.o
-t1284046856
-s38640
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/URLReader.o
-t1284046855
-s21016
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbCategory.o
-t1284046855
-s5308
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbFeed.o
-t1284046855
-s5536
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbFeedData.o
-t1284046855
-s5512
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbImageToDataTransformer.o
-t1284046855
-s9940
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbSettings.o
-t1284046854
-s5280
-
-N/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/main.o
-t1284046854
-s6284
-
-N/Users/supudo/_Private/Duduka/button-big-black.jpg
-c000000004C5AC0A10000000000000B8A
-t1281015969
-s2954
-
-N/Users/supudo/_Private/Duduka/eenk.com.xml
-c000000004C80BD9D00000000000060C2
-t1283505565
-s24770
-
-N/Users/supudo/_Private/Duduka/instapaper.png
-c000000004C875F3400000000000008AC
-t1283940148
-s2220
-
-N/Users/supudo/_Private/Duduka/kldn.net.xml
-c000000004C7D047C00000000000055E0
-t1283261564
-s21984
-
-N/Users/supudo/_Private/Duduka/mail.png
-c000000004C87857B0000000000000BBA
-t1283949947
-s3002
-
-N/Users/supudo/_Private/Duduka/main.m
-c000000004C7BBD70000000000000015B
-t1283177840
-s347
-i<UIKit/UIKit.h>
-
-N/Users/supudo/_Private/Duduka/refresh.png
-c000000004971B44E00000000000001CB
-t1232188494
-s459
-
-N/Users/supudo/_Private/Duduka/safari.png
-c000000004C875F760000000000000CE6
-t1283940214
-s3302
-
-N/Users/supudo/_Private/Duduka/social-nets.png
-c000000004B82BEC200000000000001D3
-t1266859714
-s467
-
-N/Users/supudo/_Private/Duduka/tb-about.png
-c000000004971B56C0000000000000177
-t1232188780
-s375
-
-N/Users/supudo/_Private/Duduka/tb-feeds.png
-c0000000049B79F56000000000000015B
-t1236770646
-s347
-
-N/Users/supudo/_Private/Duduka/tb-notes.png
-c000000004AA69E620000000000000107
-t1252433506
-s263
-
-N/Users/supudo/_Private/Duduka/tb-settings.png
-c000000004971B5180000000000000177
-t1232188696
-s375
-
-N/Users/supudo/_Private/Duduka/wipe-data.png
-c000000004971B52A00000000000002E7
-t1232188714
-s743
-
-N/var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-dycyaghqaqpaddfvqxjizbewhsao/Duduka_Prefix.pch.gch
-t1283962296
-s16421200
-
-N/var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch.gch
-t1284046854
-s16396624
-
-N/var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-hisoitbdtnrkuncrmslpmpiitzda/Duduka_Prefix.pch.gch
-t1284025570
-s16400720
-
-NDuduka-Info.plist
-c000000004C7E145700000000000003E8
-t1283331159
-s1000
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies305815107#305815107#0(0"0(0#1#0"8682901280#0"0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/About.o /Users/supudo/_Private/Duduka/About.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/About.o /Users/supudo/_Private/Duduka/Classes/../About.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305815070.916976
-e305815071.060440
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/About.o
-x/Users/supudo/_Private/Duduka/Classes/../About.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/supudo/_Private/Duduka/Classes/../About.m305815070#305815071#0(0"0(0#0#48"/Users/supudo/_Private/Duduka/Classes/../About.m8645419808#1808"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/../About.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/About.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AppSettings.o /Users/supudo/_Private/Duduka/Classes/AppSettings.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739654.797110
-e305739654.932981
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AppSettings.o
-x/Users/supudo/_Private/Duduka/Classes/AppSettings.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/supudo/_Private/Duduka/Classes/AppSettings.m305739654#305739654#0(0"0(0#0#51"/Users/supudo/_Private/Duduka/Classes/AppSettings.m8663576320#1817"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/AppSettings.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AppSettings.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AutoRefresh.o /Users/supudo/_Private/Duduka/Classes/AutoRefresh.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305127033.294989
-e305127033.349358
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AutoRefresh.o
-x/Users/supudo/_Private/Duduka/Classes/AutoRefresh.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/supudo/_Private/Duduka/Classes/AutoRefresh.m305127033#305127033#0(0"0(0#0#51"/Users/supudo/_Private/Duduka/Classes/AutoRefresh.m8703393216#1804"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-dycyaghqaqpaddfvqxjizbewhsao/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/AutoRefresh.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AutoRefresh.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AutoRefreshInterval.o /Users/supudo/_Private/Duduka/AutoRefreshInterval.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AutoRefreshInterval.o /Users/supudo/_Private/Duduka/Classes/../AutoRefreshInterval.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.928233
-e305739656.018286
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AutoRefreshInterval.o
-x/Users/supudo/_Private/Duduka/Classes/../AutoRefreshInterval.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/supudo/_Private/Duduka/Classes/../AutoRefreshInterval.m305739655#305739656#0(0"0(0#0#62"/Users/supudo/_Private/Duduka/Classes/../AutoRefreshInterval.m8793279968#1836"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/../AutoRefreshInterval.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/AutoRefreshInterval.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/BlackAlertView.o /Users/supudo/_Private/Duduka/Classes/BlackAlertView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.554082
-e305739655.647172
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/BlackAlertView.o
-x/Users/supudo/_Private/Duduka/Classes/BlackAlertView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/supudo/_Private/Duduka/Classes/BlackAlertView.m305739655#305739655#0(0"0(0#0#54"/Users/supudo/_Private/Duduka/Classes/BlackAlertView.m8796891456#1823"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/BlackAlertView.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/BlackAlertView.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Categories.o /Users/supudo/_Private/Duduka/Classes/../Categories.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739654.774924
-e305739654.956347
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Categories.o
-x/Users/supudo/_Private/Duduka/Classes/../Categories.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/supudo/_Private/Duduka/Classes/../Categories.m305739654#305739654#0(0"0(0#0#53"/Users/supudo/_Private/Duduka/Classes/../Categories.m8665423200#1818"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/../Categories.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Categories.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/CategoriesAddNew.o /Users/supudo/_Private/Duduka/Classes/CategoriesAddNew.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.208445
-e305739655.336690
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/CategoriesAddNew.o
-x/Users/supudo/_Private/Duduka/Classes/CategoriesAddNew.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/supudo/_Private/Duduka/Classes/CategoriesAddNew.m305739655#305739655#0(0"0(0#0#56"/Users/supudo/_Private/Duduka/Classes/CategoriesAddNew.m8664471392#1827"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/CategoriesAddNew.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/CategoriesAddNew.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/DBManagedObjectContext.o /Users/supudo/_Private/Duduka/Classes/DBManagedObjectContext.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.097247
-e305739655.208342
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/DBManagedObjectContext.o
-x/Users/supudo/_Private/Duduka/Classes/DBManagedObjectContext.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/supudo/_Private/Duduka/Classes/DBManagedObjectContext.m305739655#305739655#0(0"0(0#0#62"/Users/supudo/_Private/Duduka/Classes/DBManagedObjectContext.m8687312672#1839"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/DBManagedObjectContext.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/DBManagedObjectContext.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/DudukaAppDelegate.o /Users/supudo/_Private/Duduka/Classes/DudukaAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739654.594519
-e305739654.688129
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/DudukaAppDelegate.o
-x/Users/supudo/_Private/Duduka/Classes/DudukaAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/supudo/_Private/Duduka/Classes/DudukaAppDelegate.m305739654#305739654#0(0"0(0#0#57"/Users/supudo/_Private/Duduka/Classes/DudukaAppDelegate.m8710856960#1829"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/DudukaAppDelegate.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/DudukaAppDelegate.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/DudukaViewController.o /Users/supudo/_Private/Duduka/Classes/DudukaViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305024616.112148
-e305024616.228148
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/DudukaViewController.o
-x/Users/supudo/_Private/Duduka/Classes/DudukaViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/supudo/_Private/Duduka/Classes/DudukaViewController.m305024616#305024616#0(0"0(0#0#60"/Users/supudo/_Private/Duduka/Classes/DudukaViewController.m8699655808#1822"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-dycyaghqaqpaddfvqxjizbewhsao/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/DudukaViewController.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/DudukaViewController.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedCell.o /Users/supudo/_Private/Duduka/Classes/../FeedCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305189683.983479
-e305189684.133059
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedCell.o
-x/Users/supudo/_Private/Duduka/Classes/../FeedCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/supudo/_Private/Duduka/Classes/../FeedCell.m305189683#305189684#0(0"0(0#0#51"/Users/supudo/_Private/Duduka/Classes/../FeedCell.m8704161280#1801"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-dycyaghqaqpaddfvqxjizbewhsao/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/../FeedCell.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedCell.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedCell.o /Users/supudo/_Private/Duduka/FeedCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedData.o /Users/supudo/_Private/Duduka/Classes/../FeedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.693175
-e305739655.928135
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedData.o
-x/Users/supudo/_Private/Duduka/Classes/../FeedData.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/supudo/_Private/Duduka/Classes/../FeedData.m305739655#305739655#0(0"0(0#0#51"/Users/supudo/_Private/Duduka/Classes/../FeedData.m8768929856#1814"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/../FeedData.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedData.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedItemView.o /Users/supudo/_Private/Duduka/Classes/../FeedItemView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.832973
-e305739656.066254
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedItemView.o
-x/Users/supudo/_Private/Duduka/Classes/../FeedItemView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/supudo/_Private/Duduka/Classes/../FeedItemView.m305739655#305739656#0(0"0(0#0#55"/Users/supudo/_Private/Duduka/Classes/../FeedItemView.m8745197536#1822"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/../FeedItemView.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedItemView.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedWorker.o /Users/supudo/_Private/Duduka/Classes/FeedWorker.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739656.018393
-e305739656.090384
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedWorker.o
-x/Users/supudo/_Private/Duduka/Classes/FeedWorker.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/supudo/_Private/Duduka/Classes/FeedWorker.m305739656#305739656#0(0"0(0#0#50"/Users/supudo/_Private/Duduka/Classes/FeedWorker.m8767749376#1815"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/FeedWorker.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedWorker.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Feeds.o /Users/supudo/_Private/Duduka/Classes/../Feeds.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.166904
-e305739655.300600
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Feeds.o
-x/Users/supudo/_Private/Duduka/Classes/../Feeds.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/supudo/_Private/Duduka/Classes/../Feeds.m305739655#305739655#0(0"0(0#0#48"/Users/supudo/_Private/Duduka/Classes/../Feeds.m8667072384#1808"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/../Feeds.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Feeds.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedsAddNew.o /Users/supudo/_Private/Duduka/Classes/../FeedsAddNew.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.300699
-e305739655.525450
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedsAddNew.o
-x/Users/supudo/_Private/Duduka/Classes/../FeedsAddNew.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/supudo/_Private/Duduka/Classes/../FeedsAddNew.m305739655#305739655#0(0"0(0#0#54"/Users/supudo/_Private/Duduka/Classes/../FeedsAddNew.m8667128480#1820"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/../FeedsAddNew.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/FeedsAddNew.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Loading.o /Users/supudo/_Private/Duduka/Classes/../Loading.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739654.686848
-e305739654.774824
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Loading.o
-x/Users/supudo/_Private/Duduka/Classes/../Loading.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/supudo/_Private/Duduka/Classes/../Loading.m305739654#305739654#0(0"0(0#0#50"/Users/supudo/_Private/Duduka/Classes/../Loading.m8686820096#1812"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/../Loading.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Loading.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/LoadingView.o /Users/supudo/_Private/Duduka/Classes/LoadingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739656.210037
-e305739656.333855
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/LoadingView.o
-x/Users/supudo/_Private/Duduka/Classes/LoadingView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/supudo/_Private/Duduka/Classes/LoadingView.m305739656#305739656#0(0"0(0#0#51"/Users/supudo/_Private/Duduka/Classes/LoadingView.m8661602368#1817"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/LoadingView.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/LoadingView.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/MCSegmentedControl.o /Users/supudo/_Private/Duduka/Classes/MCSegmentedControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739656.450676
-e305739656.652292
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/MCSegmentedControl.o
-x/Users/supudo/_Private/Duduka/Classes/MCSegmentedControl.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/supudo/_Private/Duduka/Classes/MCSegmentedControl.m305739656#305739656#0(0"0(0#0#58"/Users/supudo/_Private/Duduka/Classes/MCSegmentedControl.m8796061632#1831"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/MCSegmentedControl.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/MCSegmentedControl.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Notes.o /Users/supudo/_Private/Duduka/Classes/../Notes.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305815059.590470
-e305815059.828120
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Notes.o
-x/Users/supudo/_Private/Duduka/Classes/../Notes.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/supudo/_Private/Duduka/Classes/../Notes.m305815059#305815059#0(0"0(0#0#48"/Users/supudo/_Private/Duduka/Classes/../Notes.m8697099872#1808"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/../Notes.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Notes.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Notes.o /Users/supudo/_Private/Duduka/Notes.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/NotesDrawView.o /Users/supudo/_Private/Duduka/Classes/../NotesDrawView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305815059.655921
-e305815059.861835
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/NotesDrawView.o
-x/Users/supudo/_Private/Duduka/Classes/../NotesDrawView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/supudo/_Private/Duduka/Classes/../NotesDrawView.m305815059#305815059#0(0"0(0#0#56"/Users/supudo/_Private/Duduka/Classes/../NotesDrawView.m8672922688#1824"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/../NotesDrawView.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/NotesDrawView.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/NotesDrawView.o /Users/supudo/_Private/Duduka/Classes/NotesDrawView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/NotesDrawView.o /Users/supudo/_Private/Duduka/NotesDrawView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/PDColoredProgressDrawing.o /Users/supudo/_Private/Duduka/Classes/PDColoredProgressDrawing.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.613889
-e305739655.693074
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/PDColoredProgressDrawing.o
-x/Users/supudo/_Private/Duduka/Classes/PDColoredProgressDrawing.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/supudo/_Private/Duduka/Classes/PDColoredProgressDrawing.m305739655#305739655#0(0"0(0#0#64"/Users/supudo/_Private/Duduka/Classes/PDColoredProgressDrawing.m8793551840#1843"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/PDColoredProgressDrawing.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/PDColoredProgressDrawing.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/PDColoredProgressView.o /Users/supudo/_Private/Duduka/Classes/PDColoredProgressView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.647278
-e305739655.749051
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/PDColoredProgressView.o
-x/Users/supudo/_Private/Duduka/Classes/PDColoredProgressView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/supudo/_Private/Duduka/Classes/PDColoredProgressView.m305739655#305739655#0(0"0(0#0#61"/Users/supudo/_Private/Duduka/Classes/PDColoredProgressView.m8789106752#1837"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/PDColoredProgressView.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/PDColoredProgressView.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Reachability.o /Users/supudo/_Private/Duduka/Classes/Reachability.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.058482
-e305739655.166805
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Reachability.o
-x/Users/supudo/_Private/Duduka/Classes/Reachability.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/supudo/_Private/Duduka/Classes/Reachability.m305739655#305739655#0(0"0(0#0#52"/Users/supudo/_Private/Duduka/Classes/Reachability.m8732456928#1819"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/Reachability.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Reachability.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/RssParser.o /Users/supudo/_Private/Duduka/Classes/RssParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.336798
-e305739655.553975
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/RssParser.o
-x/Users/supudo/_Private/Duduka/Classes/RssParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/supudo/_Private/Duduka/Classes/RssParser.m305739655#305739655#0(0"0(0#0#49"/Users/supudo/_Private/Duduka/Classes/RssParser.m8765765472#1813"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/RssParser.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/RssParser.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SNInstapaper.o /Users/supudo/_Private/Duduka/Classes/SNInstapaper.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739656.299574
-e305739656.422678
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SNInstapaper.o
-x/Users/supudo/_Private/Duduka/Classes/SNInstapaper.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/supudo/_Private/Duduka/Classes/SNInstapaper.m305739656#305739656#0(0"0(0#0#52"/Users/supudo/_Private/Duduka/Classes/SNInstapaper.m8784009056#1819"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/SNInstapaper.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SNInstapaper.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Settings.o /Users/supudo/_Private/Duduka/Classes/../Settings.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739654.688205
-e305739654.797006
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Settings.o
-x/Users/supudo/_Private/Duduka/Classes/../Settings.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/supudo/_Private/Duduka/Classes/../Settings.m305739654#305739654#0(0"0(0#0#51"/Users/supudo/_Private/Duduka/Classes/../Settings.m8667110496#1814"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/../Settings.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Settings.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SocialNetworks.o /Users/supudo/_Private/Duduka/Classes/SocialNetworks.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739656.333953
-e305739656.450571
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SocialNetworks.o
-x/Users/supudo/_Private/Duduka/Classes/SocialNetworks.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/supudo/_Private/Duduka/Classes/SocialNetworks.m305739656#305739656#0(0"0(0#0#54"/Users/supudo/_Private/Duduka/Classes/SocialNetworks.m8771481280#1823"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/SocialNetworks.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SocialNetworks.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SocialNetworksInstapaper.o /Users/supudo/_Private/Duduka/Classes/SocialNetworksInstapaper.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739656.422819
-e305739656.526264
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SocialNetworksInstapaper.o
-x/Users/supudo/_Private/Duduka/Classes/SocialNetworksInstapaper.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/supudo/_Private/Duduka/Classes/SocialNetworksInstapaper.m305739656#305739656#0(0"0(0#0#64"/Users/supudo/_Private/Duduka/Classes/SocialNetworksInstapaper.m8753947680#1843"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/SocialNetworksInstapaper.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/SocialNetworksInstapaper.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Threads.o /Users/supudo/_Private/Duduka/Classes/Threads.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305119361.287781
-e305119361.345979
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Threads.o
-x/Users/supudo/_Private/Duduka/Classes/Threads.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/supudo/_Private/Duduka/Classes/Threads.m305119361#305119361#0(0"0(0#0#47"/Users/supudo/_Private/Duduka/Classes/Threads.m8615499488#1796"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-dycyaghqaqpaddfvqxjizbewhsao/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/Threads.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Threads.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/UINavigationItemCleanBG.o /Users/supudo/_Private/Duduka/Classes/UINavigationItemCleanBG.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739656.066557
-e305739656.177763
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/UINavigationItemCleanBG.o
-x/Users/supudo/_Private/Duduka/Classes/UINavigationItemCleanBG.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/supudo/_Private/Duduka/Classes/UINavigationItemCleanBG.m305739656#305739656#0(0"0(0#0#63"/Users/supudo/_Private/Duduka/Classes/UINavigationItemCleanBG.m8764465728#1841"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/UINavigationItemCleanBG.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/UINavigationItemCleanBG.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/URLReader.o /Users/supudo/_Private/Duduka/Classes/URLReader.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.525547
-e305739655.613780
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/URLReader.o
-x/Users/supudo/_Private/Duduka/Classes/URLReader.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/supudo/_Private/Duduka/Classes/URLReader.m: In function '-[URLReader getFromURL:postData:]':
-o/Users/supudo/_Private/Duduka/Classes/URLReader.m:33: warning: 'NSErrorFailingURLStringKey' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLError.h:46)
-lSLF07#2@57"Compile /Users/supudo/_Private/Duduka/Classes/URLReader.m305739655#305739655#0(375"/Users/supudo/_Private/Duduka/Classes/URLReader.m: In function '-[URLReader getFromURL:postData:]':/Users/supudo/_Private/Duduka/Classes/URLReader.m:33: warning: 'NSErrorFailingURLStringKey' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLError.h:46)1(22@211"'NSErrorFailingURLStringKey' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLError.h:46)305739655#100#275#0(6@49"/Users/supudo/_Private/Duduka/Classes/URLReader.m305636949#33#0#33#0#33"'*' is deprecated (declared at *)0(0#0#49"/Users/supudo/_Private/Duduka/Classes/URLReader.m8708151168#1813"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/URLReader.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/URLReader.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbCategory.o /Users/supudo/_Private/Duduka/Classes/dbCategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739654.956453
-e305739655.020090
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbCategory.o
-x/Users/supudo/_Private/Duduka/Classes/dbCategory.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/supudo/_Private/Duduka/Classes/dbCategory.m305739654#305739655#0(0"0(0#0#50"/Users/supudo/_Private/Duduka/Classes/dbCategory.m8769551552#1815"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/dbCategory.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbCategory.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbFeed.o /Users/supudo/_Private/Duduka/Classes/dbFeed.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739654.995378
-e305739655.058375
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbFeed.o
-x/Users/supudo/_Private/Duduka/Classes/dbFeed.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/supudo/_Private/Duduka/Classes/dbFeed.m305739654#305739655#0(0"0(0#0#46"/Users/supudo/_Private/Duduka/Classes/dbFeed.m8757584800#1807"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/dbFeed.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbFeed.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbFeedData.o /Users/supudo/_Private/Duduka/Classes/dbFeedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.020196
-e305739655.097144
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbFeedData.o
-x/Users/supudo/_Private/Duduka/Classes/dbFeedData.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/supudo/_Private/Duduka/Classes/dbFeedData.m305739655#305739655#0(0"0(0#0#50"/Users/supudo/_Private/Duduka/Classes/dbFeedData.m8750697216#1815"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/dbFeedData.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbFeedData.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbImageToDataTransformer.o /Users/supudo/_Private/Duduka/Classes/dbImageToDataTransformer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739655.749164
-e305739655.832664
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbImageToDataTransformer.o
-x/Users/supudo/_Private/Duduka/Classes/dbImageToDataTransformer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/supudo/_Private/Duduka/Classes/dbImageToDataTransformer.m305739655#305739655#0(0"0(0#0#64"/Users/supudo/_Private/Duduka/Classes/dbImageToDataTransformer.m8758237408#1843"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/dbImageToDataTransformer.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbImageToDataTransformer.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbSettings.o /Users/supudo/_Private/Duduka/Classes/dbSettings.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739654.933081
-e305739654.995269
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbSettings.o
-x/Users/supudo/_Private/Duduka/Classes/dbSettings.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/supudo/_Private/Duduka/Classes/dbSettings.m305739654#305739654#0(0"0(0#0#50"/Users/supudo/_Private/Duduka/Classes/dbSettings.m8793919200#1815"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/Classes/dbSettings.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/dbSettings.o0#
-
-CCompileC build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/main.o /Users/supudo/_Private/Duduka/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739654.537676
-e305739654.594416
-r1
-xCompileC
-xbuild/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/main.o
-x/Users/supudo/_Private/Duduka/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@44"Compile /Users/supudo/_Private/Duduka/main.m305739654#305739654#0(0"0(0#0#36"/Users/supudo/_Private/Duduka/main.m8746475712#1795"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -include /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch -c /Users/supudo/_Private/Duduka/main.m -o /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/About.xib
-s305739651.996094
-e305739652.452887
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/About.xib
-lSLF07#2@20"CompileXIB About.xib305739651#305739652#0(0"0(0#0#39"/Users/supudo/_Private/Duduka/About.xib8707602144#532"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/About.nib /Users/supudo/_Private/Duduka/About.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/AutoRefreshInterval.xib
-s305739651.772979
-e305739652.211932
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/AutoRefreshInterval.xib
-lSLF07#2@34"CompileXIB AutoRefreshInterval.xib305739651#305739652#0(0"0(0#0#53"/Users/supudo/_Private/Duduka/AutoRefreshInterval.xib8758102592#560"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/AutoRefreshInterval.nib /Users/supudo/_Private/Duduka/AutoRefreshInterval.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/Categories.xib
-s305739650.190772
-e305739650.611055
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/Categories.xib
-lSLF07#2@25"CompileXIB Categories.xib305739650#305739650#0(0"0(0#0#44"/Users/supudo/_Private/Duduka/Categories.xib8710631488#542"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Categories.nib /Users/supudo/_Private/Duduka/Categories.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/Classes/CategoriesAddNew.xib
-s305739650.852665
-e305739651.311289
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/Classes/CategoriesAddNew.xib
-lSLF07#2@39"CompileXIB Classes/CategoriesAddNew.xib305739650#305739651#0(0"0(0#0#58"/Users/supudo/_Private/Duduka/Classes/CategoriesAddNew.xib8682363168#562"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/CategoriesAddNew.nib /Users/supudo/_Private/Duduka/Classes/CategoriesAddNew.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/Classes/SocialNetworks.xib
-s305739652.464862
-e305739652.892066
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/Classes/SocialNetworks.xib
-lSLF07#2@37"CompileXIB Classes/SocialNetworks.xib305739652#305739652#0(0"0(0#0#56"/Users/supudo/_Private/Duduka/Classes/SocialNetworks.xib8663919872#558"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/SocialNetworks.nib /Users/supudo/_Private/Duduka/Classes/SocialNetworks.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/Classes/SocialNetworksInstapaper.xib
-s305739652.654776
-e305739653.109509
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/Classes/SocialNetworksInstapaper.xib
-lSLF07#2@47"CompileXIB Classes/SocialNetworksInstapaper.xib305739652#305739653#0(0"0(0#0#66"/Users/supudo/_Private/Duduka/Classes/SocialNetworksInstapaper.xib8767887680#578"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/SocialNetworksInstapaper.nib /Users/supudo/_Private/Duduka/Classes/SocialNetworksInstapaper.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/DudukaViewController.xib
-s305022117.780226
-e305022118.187053
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/DudukaViewController.xib
-lSLF07#2@35"CompileXIB DudukaViewController.xib305022117#305022118#0(0"0(0#0#54"/Users/supudo/_Private/Duduka/DudukaViewController.xib8705104096#562"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/DudukaViewController.nib /Users/supudo/_Private/Duduka/DudukaViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/FeedCell.xib
-s305189683.553732
-e305189683.920677
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/FeedCell.xib
-lSLF07#2@23"CompileXIB FeedCell.xib305189683#305189683#0(0"0(0#0#42"/Users/supudo/_Private/Duduka/FeedCell.xib8696458944#538"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/FeedCell.nib /Users/supudo/_Private/Duduka/FeedCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/FeedData.xib
-s305739651.312536
-e305739651.766662
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/FeedData.xib
-lSLF07#2@23"CompileXIB FeedData.xib305739651#305739651#0(0"0(0#0#42"/Users/supudo/_Private/Duduka/FeedData.xib8663765984#538"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/FeedData.nib /Users/supudo/_Private/Duduka/FeedData.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/FeedItemView.xib
-s305739651.562561
-e305739651.994225
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/FeedItemView.xib
-lSLF07#2@27"CompileXIB FeedItemView.xib305739651#305739651#0(0"0(0#0#46"/Users/supudo/_Private/Duduka/FeedItemView.xib8793289504#546"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/FeedItemView.nib /Users/supudo/_Private/Duduka/FeedItemView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/Feeds.xib
-s305739650.687623
-e305739651.107997
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/Feeds.xib
-lSLF07#2@20"CompileXIB Feeds.xib305739650#305739651#0(0"0(0#0#39"/Users/supudo/_Private/Duduka/Feeds.xib8688376160#532"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Feeds.nib /Users/supudo/_Private/Duduka/Feeds.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/FeedsAddNew.xib
-s305739651.108191
-e305739651.562474
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/FeedsAddNew.xib
-lSLF07#2@26"CompileXIB FeedsAddNew.xib305739651#305739651#0(0"0(0#0#45"/Users/supudo/_Private/Duduka/FeedsAddNew.xib8666181664#544"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/FeedsAddNew.nib /Users/supudo/_Private/Duduka/FeedsAddNew.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/Loading.xib
-s305739649.650073
-e305739650.150222
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/Loading.xib
-lSLF07#2@22"CompileXIB Loading.xib305739649#305739650#0(0"0(0#0#41"/Users/supudo/_Private/Duduka/Loading.xib8666117504#536"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Loading.nib /Users/supudo/_Private/Duduka/Loading.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/MainWindow.xib
-s305739649.649359
-e305739650.190684
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib305739649#305739650#0(0"0(0#0#44"/Users/supudo/_Private/Duduka/MainWindow.xib8666420864#542"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/MainWindow.nib /Users/supudo/_Private/Duduka/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/Notes.xib
-s305815107.404304
-e305815107.808202
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/Notes.xib
-lSLF07#2@20"CompileXIB Notes.xib305815107#305815107#0(0"0(0#0#39"/Users/supudo/_Private/Duduka/Notes.xib8670332864#532"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Notes.nib /Users/supudo/_Private/Duduka/Notes.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/NotesDrawView.xib
-s305739652.900536
-e305739653.288444
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/NotesDrawView.xib
-lSLF07#2@28"CompileXIB NotesDrawView.xib305739652#305739653#0(0"0(0#0#47"/Users/supudo/_Private/Duduka/NotesDrawView.xib8711055328#548"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/NotesDrawView.nib /Users/supudo/_Private/Duduka/NotesDrawView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCompileXIB /Users/supudo/_Private/Duduka/Settings.xib
-s305739650.150314
-e305739650.611190
-r1
-xCompileXIB
-x/Users/supudo/_Private/Duduka/Settings.xib
-lSLF07#2@23"CompileXIB Settings.xib305739650#305739650#0(0"0(0#0#42"/Users/supudo/_Private/Duduka/Settings.xib8738999136#538"    cd /Users/supudo/_Private/Duduka    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Settings.nib /Users/supudo/_Private/Duduka/Settings.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
-
-CCopyStringsFile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Bulgarian.lproj/Localizable.strings Bulgarian.lproj/Localizable.strings
-s305563732.215725
-e305563732.357354
-r1
-xCopyStringsFile
-x/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Bulgarian.lproj/Localizable.strings
-xBulgarian.lproj/Localizable.strings
-lSLF07#2@40"Copy Bulgarian.lproj/Localizable.strings305563732#305563732#0(0"0(0#0#65"/Users/supudo/_Private/Duduka/Bulgarian.lproj/Localizable.strings34340398137344096#480"    cd /Users/supudo/_Private/Duduka    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Bulgarian.lproj/Localizable.strings --outdir /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Bulgarian.lproj0#
-
-CCopyStringsFile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/English.lproj/Localizable.strings English.lproj/Localizable.strings
-s305743130.160442
-e305743130.201536
-r1
-xCopyStringsFile
-x/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/English.lproj/Localizable.strings
-xEnglish.lproj/Localizable.strings
-lSLF07#2@38"Copy English.lproj/Localizable.strings305743130#305743130#0(0"0(0#0#63"/Users/supudo/_Private/Duduka/English.lproj/Localizable.strings8687238208#476"    cd /Users/supudo/_Private/Duduka    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary English.lproj/Localizable.strings --outdir /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/English.lproj0#
-
-CCopyStringsFile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Localizable.strings Localizable.strings
-r0
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/104-index-cards.png 104-index-cards.png
-r0
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/112-group.png 112-group.png
-r0
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/28-star.png 28-star.png
-r0
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/Safari.png Safari.png
-r0
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/black-button.jpg black-button.jpg
-s305739652.452981
-e305739652.468326
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Duduka.app/black-button.jpg
-xblack-button.jpg
-lSLF07#2@21"Copy black-button.jpg305739652#305739652#0(0"0(0#0#46"/Users/supudo/_Private/Duduka/black-button.jpg8667201472#432"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/supudo/_Private/Duduka/black-button.jpg /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app0#
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/button-big-black.jpg button-big-black.jpg
-r0
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/eenk.com.xml eenk.com.xml
-s305739651.311535
-e305739651.328894
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Duduka.app/eenk.com.xml
-xeenk.com.xml
-lSLF07#2@17"Copy eenk.com.xml305739651#305739651#0(0"0(0#0#42"/Users/supudo/_Private/Duduka/eenk.com.xml8664426720#428"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/supudo/_Private/Duduka/eenk.com.xml /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app0#
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/instapaper.png instapaper.png
-s305739652.460182
-e305739652.468448
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Duduka.app/instapaper.png
-xinstapaper.png
-lSLF07#2@19"Copy instapaper.png305739652#305739652#0(0"0(0#0#44"/Users/supudo/_Private/Duduka/instapaper.png8666167488#430"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/supudo/_Private/Duduka/instapaper.png /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app0#
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/kldn.net.xml kldn.net.xml
-s305739651.766761
-e305739651.782867
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Duduka.app/kldn.net.xml
-xkldn.net.xml
-lSLF07#2@17"Copy kldn.net.xml305739651#305739651#0(0"0(0#0#42"/Users/supudo/_Private/Duduka/kldn.net.xml8769992416#428"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/supudo/_Private/Duduka/kldn.net.xml /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app0#
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/mail.png mail.png
-s305739652.893165
-e305739652.903391
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Duduka.app/mail.png
-xmail.png
-lSLF07#2@13"Copy mail.png305739652#305739652#0(0"0(0#0#38"/Users/supudo/_Private/Duduka/mail.png8744835648#424"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/supudo/_Private/Duduka/mail.png /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app0#
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/refresh.png refresh.png
-s305739651.767536
-e305739651.778274
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Duduka.app/refresh.png
-xrefresh.png
-lSLF07#2@16"Copy refresh.png305739651#305739651#0(0"0(0#0#41"/Users/supudo/_Private/Duduka/refresh.png8766877472#427"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/supudo/_Private/Duduka/refresh.png /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app0#
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/safari.png safari.png
-s305739652.462429
-e305739652.475822
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Duduka.app/safari.png
-xsafari.png
-lSLF07#2@15"Copy safari.png305739652#305739652#0(0"0(0#0#40"/Users/supudo/_Private/Duduka/safari.png8665185344#426"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/supudo/_Private/Duduka/safari.png /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app0#
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/social-nets.png social-nets.png
-s305739652.892310
-e305739652.903273
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Duduka.app/social-nets.png
-xsocial-nets.png
-lSLF07#2@20"Copy social-nets.png305739652#305739652#0(0"0(0#0#45"/Users/supudo/_Private/Duduka/social-nets.png8748221760#431"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/supudo/_Private/Duduka/social-nets.png /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app0#
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/tb-about.png tb-about.png
-s305739651.995328
-e305739652.001508
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Duduka.app/tb-about.png
-xtb-about.png
-lSLF07#2@17"Copy tb-about.png305739651#305739652#0(0"0(0#0#42"/Users/supudo/_Private/Duduka/tb-about.png8708347200#428"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/supudo/_Private/Duduka/tb-about.png /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app0#
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/tb-feeds.png tb-feeds.png
-s305739650.611964
-e305739650.687524
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Duduka.app/tb-feeds.png
-xtb-feeds.png
-lSLF07#2@17"Copy tb-feeds.png305739650#305739650#0(0"0(0#0#42"/Users/supudo/_Private/Duduka/tb-feeds.png8697484704#428"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/supudo/_Private/Duduka/tb-feeds.png /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app0#
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/tb-notes.png tb-notes.png
-s305739651.994317
-e305739651.999640
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Duduka.app/tb-notes.png
-xtb-notes.png
-lSLF07#2@17"Copy tb-notes.png305739651#305739652#0(0"0(0#0#42"/Users/supudo/_Private/Duduka/tb-notes.png8731219104#428"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/supudo/_Private/Duduka/tb-notes.png /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app0#
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/tb-settings.png tb-settings.png
-s305739650.611263
-e305739650.685172
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Duduka.app/tb-settings.png
-xtb-settings.png
-lSLF07#2@20"Copy tb-settings.png305739650#305739650#0(0"0(0#0#45"/Users/supudo/_Private/Duduka/tb-settings.png8698706688#431"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/supudo/_Private/Duduka/tb-settings.png /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app0#
-
-CCpResource build/Debug-iphonesimulator/Duduka.app/wipe-data.png wipe-data.png
-s305739651.772252
-e305739651.782997
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Duduka.app/wipe-data.png
-xwipe-data.png
-lSLF07#2@18"Copy wipe-data.png305739651#305739651#0(0"0(0#0#43"/Users/supudo/_Private/Duduka/wipe-data.png8764764352#429"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/supudo/_Private/Duduka/wipe-data.png /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app0#
-
-CDataModelCompile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka.mom /Users/supudo/_Private/Duduka/Duduka.xcdatamodel
-s305739654.536620
-e305739654.686742
-r1
-xDataModelCompile
-x/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka.mom
-x/Users/supudo/_Private/Duduka/Duduka.xcdatamodel
-lSLF07#2@56"Compile /Users/supudo/_Private/Duduka/Duduka.xcdatamodel305739654#305739654#0(0"0(0#0#48"/Users/supudo/_Private/Duduka/Duduka.xcdatamodel8751245440#354"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/supudo/_Private/Duduka/Duduka.xcdatamodel /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka.mom0#
-
-CGenerateDSYMFile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app.dSYM /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka
-s305815071.121297
-e305815071.181621
-r1
-xGenerateDSYMFile
-x/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app.dSYM
-x/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka
-lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Duduka.app.dSYM build/Debug-iphonesimulator/Duduka.app/Duduka305815071#305815071#0(0"0(0#0#75"/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka8621682208#353"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka -o /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app.dSYM0#
-
-CLd /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka normal i386
-s305815071.060531
-e305815071.121199
-r1
-xLd
-x/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka
-xnormal
-xi386
-lSLF07#2@80"Link /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka305815071#305815071#0(0"0(0#0#0"8650092096#972"    cd /Users/supudo/_Private/Duduka    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -filelist /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Objects-normal/i386/Duduka.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework MediaPlayer -framework SystemConfiguration -framework QuartzCore -weak_framework MessageUI -o /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Duduka0#
-
-CProcessInfoPlistFile /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Info.plist Duduka-Info.plist
-s305739649.645714
-e305739649.649269
-r1
-xProcessInfoPlistFile
-x/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Info.plist
-xDuduka-Info.plist
-lSLF07#2@25"Process Duduka-Info.plist305739649#305739649#0(0"0(0#0#47"/Users/supudo/_Private/Duduka/Duduka-Info.plist8680447456#449"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Duduka-Info.plist -genpkginfo /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app/Info.plist0#
-
-CProcessPCH /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-dycyaghqaqpaddfvqxjizbewhsao/Duduka_Prefix.pch.gch Duduka_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s305655095.116422
-e305655096.196099
-r1
-xProcessPCH
-x/var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-dycyaghqaqpaddfvqxjizbewhsao/Duduka_Prefix.pch.gch
-xDuduka_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@28"Precompile Duduka_Prefix.pch305655095#305655096#0(0"0(0#0#47"/Users/supudo/_Private/Duduka/Duduka_Prefix.pch8732789248#1684"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -c /Users/supudo/_Private/Duduka/Duduka_Prefix.pch -o /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-dycyaghqaqpaddfvqxjizbewhsao/Duduka_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch.gch Duduka_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s305739653.288572
-e305739654.536259
-r1
-xProcessPCH
-x/var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch.gch
-xDuduka_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@28"Precompile Duduka_Prefix.pch305739653#305739654#0(0"0(0#0#47"/Users/supudo/_Private/Duduka/Duduka_Prefix.pch8680171744#1697"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -c /Users/supudo/_Private/Duduka/Duduka_Prefix.pch -o /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-gyifmzjjcpzwaedkrniwrmfdxpxp/Duduka_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-hisoitbdtnrkuncrmslpmpiitzda/Duduka_Prefix.pch.gch Duduka_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s305718368.648459
-e305718370.605424
-r1
-xProcessPCH
-x/var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-hisoitbdtnrkuncrmslpmpiitzda/Duduka_Prefix.pch.gch
-xDuduka_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
-o<command-line>: warning: this is the location of the previous definition
-lSLF07#2@28"Precompile Duduka_Prefix.pch305718368#305718370#0(143"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definition0(0#0#47"/Users/supudo/_Private/Duduka/Duduka_Prefix.pch8630410272#1738"    cd /Users/supudo/_Private/Duduka    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-generated-files.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-own-target-headers.hmap -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-all-target-headers.hmap -iquote /Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/Duduka-project-headers.hmap -F/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator -I/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/include -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources/i386 -I/Users/supudo/_Private/Duduka/build/Duduka.build/Debug-iphonesimulator/Duduka.build/DerivedSources -c /Users/supudo/_Private/Duduka/Duduka_Prefix.pch -o /var/folders/7q/7qOmwfw5GmO53f9ED0u9NE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Duduka_Prefix-hisoitbdtnrkuncrmslpmpiitzda/Duduka_Prefix.pch.gch0#
-
-CTouch /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app
-s305815107.811264
-e305815107.813912
-r1
-xTouch
-x/Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app
-lSLF07#2@74"Touch /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app305815107#305815107#0(0"0(0#0#0"8639926720#259"    cd /Users/supudo/_Private/Duduka    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/supudo/_Private/Duduka/build/Debug-iphonesimulator/Duduka.app0#
-
